@@ -1,0 +1,26 @@
+{
+    "notices": [
+        {
+            "id": 1,
+            "date": 1,
+            "month": "January",
+            "title": "Welcome to Moragacha Secondary School",
+            "body": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odit quas harum at inventore vero assumenda sunt, voluptas consequuntur, minima sed corrupti in exercitationem nemo dolorem excepturi! Quaerat, aut commodi."
+        },
+        {
+            "id": 2,
+            "date": 24,
+            "month": "February",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+            "body": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odit quas harum at inventore vero assumenda sunt, voluptas consequuntur, minima sed corrupti in exercitationem nemo dolorem excepturi! Quaerat, aut commodi."
+        }
+    ],
+    "chairman": {
+        "image": "https://edutechbdbucket.s3.amazonaws.com/media/tenants/rajukcollege/page/WhatsApp_Image_2025-02-15_at_00.06.14_1_KqaB3uR.jpeg",
+        "name": "Md Hafizur Rahman"
+    },
+    "principal": {
+        "image": "https://edutechbdbucket.s3.amazonaws.com/media/tenants/rajukcollege/page/WhatsApp_Image_2025-02-15_at_00.06.14_1_KqaB3uR.jpeg",
+        "name": "Md Hasan Ali Mollah"
+    }
+}

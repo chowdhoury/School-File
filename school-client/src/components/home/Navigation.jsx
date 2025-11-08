@@ -64,10 +64,10 @@ const Navigation = () => {
 
     return (
         <nav className="mx-auto">
-            <div className="navbar bg-base-100 shadow-sm">
+            <div className="navbar min-h-8 bg-base-100 shadow-sm">
 
                 {/* Navigation and Login button */}
-                <div className="max-w-11/12 w-full mx-auto">
+                <div className="max-w-11/12 w-full mx-auto flex items-center">
                     {/* Navbar Start */}
                     <div className="navbar-start lg:h-10">
                         {/* Mobile Menu */}

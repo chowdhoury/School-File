@@ -92,7 +92,7 @@ const Navigation = () => {
                             {/* Mobile Dropdown */}
                             <ul
                                 tabIndex={0}
-                                className="menu menu-sm dropdown-content bg-white rounded-lg w-64 shadow-xl z-50 border border-gray-200"
+                                className="menu menu-sm dropdown-content bg-white rounded-lg w-56 shadow-xl z-50 border border-gray-200"
                             >
                                 {menuItems.map((item, index) => (
                                     <li key={index} className="">
@@ -159,7 +159,7 @@ const Navigation = () => {
 
                     {/* Navbar End */}
                     <div className="navbar-end">
-                        <a className="btn bg-[#013223] text-[18px] text-white font-bold rounded-lg hover:bg-[#013223]/90 active:bg-[#013223] transition-colors duration-200 border-none">
+                        <a className="px-3 py-1.5 bg-[#013223] text-white font-bold rounded-lg hover:bg-[#013223]/90 active:bg-[#013223] transition-colors duration-200 border-none cursor-pointer">
                             Login
                         </a>
                     </div>

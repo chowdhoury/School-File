@@ -1,4 +1,5 @@
 import Contact from "../../components/home/Contact";
+import Footer from "../../components/home/Footer";
 import GalleryImagePreview from "../../components/home/GalleryImagePreview";
 import Header from "../../components/home/Header";
 import History from "../../components/home/History";
@@ -43,6 +44,8 @@ const Home = () => {
             </section>
 
             <Contact></Contact>
+
+            <Footer></Footer>
         </div>
     );
 };

@@ -4,8 +4,8 @@ import noticeData from "/public/notice.json";
 const NoticeBoard = () => {
     return (
         <div>
-            <aside className="w-full lg:max-w-4xl border border-[#013223] rounded-xl h-80 md:h-96 lg:h-[480px] bg-white shadow-md">
-                <div className="h-[50px] sm:h-[60px] bg-linear-to-r from-[#013223] via-[#006747] to-[#013223] text-white font-medium text-lg sm:text-xl md:text-2xl flex items-center px-4 rounded-t-lg">
+            <aside className="w-full lg:max-w-4xl border border-[#013223] rounded-xl h-80 md:h-96 lg:h-[550px] bg-white drop-shadow">
+                <div className="bg-linear-to-r from-[#013223] via-[#006747] to-[#013223] text-white font-medium text-lg sm:text-xl md:text-2xl flex items-center px-5 py-3 rounded-t-lg">
                     <h2 className="li-font flex items-center gap-2 text-2xl md:text-3xl">
                         <FaBullhorn /> Notice Board
                     </h2>
@@ -13,7 +13,7 @@ const NoticeBoard = () => {
 
                 <marquee
                     direction="up"
-                    className="h-64 md:h-80 lg:h-[410px] mt-1"
+                    className="h-64 md:h-80 lg:h-[480px] mt-1"
                     onMouseOver={(e) => e.currentTarget.stop()}
                     onMouseOut={(e) => e.currentTarget.start()}
                 >

@@ -49,7 +49,7 @@ const Slider = () => {
                         <img
                             src={image}
                             alt={`Slide ${index + 1}`}
-                            className="w-full h-64 md:h-96 lg:h-[480px] object-cover rounded-xl overflow-hidden"
+                            className="w-full h-64 md:h-96 lg:h-[550px] object-fill rounded-xl overflow-hidden"
                             onError={(e) => {
                                 console.error(`Failed to load image ${index + 1}`);
                                 e.target.style.display = 'none';

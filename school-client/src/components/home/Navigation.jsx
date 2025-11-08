@@ -64,7 +64,7 @@ const Navigation = () => {
 
     return (
         <nav className="mx-auto">
-            <div className="navbar min-h-8 bg-base-100 shadow-sm">
+            <div className="navbar min-h-8 bg-base-100 shadow-sm px-0">
 
                 {/* Navigation and Login button */}
                 <div className="max-w-11/12 w-full mx-auto flex items-center">

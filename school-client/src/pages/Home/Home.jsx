@@ -1,3 +1,4 @@
+import Contact from "../../components/home/Contact";
 import GalleryImagePreview from "../../components/home/GalleryImagePreview";
 import Header from "../../components/home/Header";
 import History from "../../components/home/History";
@@ -41,6 +42,7 @@ const Home = () => {
                 </div>
             </section>
 
+            <Contact></Contact>
         </div>
     );
 };

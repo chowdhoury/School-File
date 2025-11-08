@@ -7,7 +7,7 @@ const Header = () => {
             {/* Identity Section */}
             <section className="p-4 section-gradient">
 
-                <div className="container mx-auto flex md:flex-row flex-col items-center justify-between gap-4 md:gap-0">
+                <div className="max-w-11/12 w-full mx-auto flex md:flex-row flex-col items-center justify-between gap-4 md:gap-0">
                     {/* Logo */}
                     <div className="relative group">
                         <div className="h-24 w-24 rounded-full bg-white/10 backdrop-blur-md border border-white/30 flex items-center justify-center shadow-[0px_0px_10px_rgba(255,255,255,0.2)] group-hover:shadow-[0px_0px_20px_rgba(255,255,255,0.5)] transition-all duration-300 hover:scale-105">
@@ -23,7 +23,7 @@ const Header = () => {
 
                     {/* Title + Subtext */}
                     <div className="text-center flex flex-col items-center justify-center leading-none gap-2">
-                        <h1 className="text-xl md:text-3xl lg:text-4xl text-white font-semibold li-font">
+                        <h1 className="text-3xl lg:text-4xl text-white font-semibold li-font">
                             Moragacha Secondary School
                         </h1>
                         <h3 className="font-medium text-white text-sm lg:text-[1rem] lg:tracking-wider">

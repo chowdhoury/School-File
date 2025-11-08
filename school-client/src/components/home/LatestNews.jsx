@@ -1,7 +1,7 @@
 import Marquee from "react-fast-marquee";
 import notice from "/public/notice.json";
 
-const Notice = () => {
+const LatestNews = () => {
     return (
         <div className="w-full text-lg">
             {/* Notice Runner */}
@@ -9,7 +9,7 @@ const Notice = () => {
                 {/* Latest Notice Label */}
                 <div className="bg-red-800 text-white h-full w-fit flex items-center px-3 sm:px-4 md:px-6 shrink-0">
                     <h2 className="font-bold whitespace-nowrap">
-                        Latest Notice
+                        Latest News
                     </h2>
                 </div>
 
@@ -44,4 +44,4 @@ const Notice = () => {
     );
 };
 
-export default Notice;
+export default LatestNews;

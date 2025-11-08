@@ -90,8 +90,8 @@ const Contact = () => {
     // Form design
     const FormInput = ({ label, type, name, value, required, placeholder, options }) => (
         <div>
-            <label className="block text-sm font-medium mb-2">
-                {label} {required && '*'}
+            <label className="block text-[0.92rem] font-semibold mb-2">
+                {label} <span className='text-red-600'>{required && '*'}</span>
             </label>
             {type === 'select' ? (
                 <select

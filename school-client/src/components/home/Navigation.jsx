@@ -3,60 +3,65 @@ import { HiChevronRight } from 'react-icons/hi';
 const Navigation = () => {
     const menuItems = [
         {
-            name: 'Home',
+            name: 'হোম',
             href: '#',
             submenu: null
         },
         {
-            name: 'Notices & Events',
-            href: '#',
-            submenu: [
-                { name: 'Notices', href: '#' },
-                { name: 'Events', href: '#' }
-            ]
-        },
-        {
-            name: 'Administration',
-            href: '#',
-            submenu: [
-                { name: 'Principal', href: '#' },
-                { name: 'Vice Principal', href: '#' },
-                { name: 'Teacher', href: '#' },
-                { name: 'Staff', href: '#' }
-            ]
-        },
-        {
-            name: 'Academics Info',
-            href: '#',
-            submenu: [
-                { name: 'History', href: '#' },
-                { name: 'Dress Code', href: '#' },
-                { name: 'Public Exam Result', href: '#' }
-            ]
-        },
-        {
-            name: 'Download Corner',
-            href: '#',
-            submenu: [
-                { name: 'Forms', href: '#' },
-                { name: 'Other Documents', href: '#' }
-            ]
-        },
-        {
-            name: 'Media Center',
-            href: '#',
-            submenu: [
-                { name: 'Video Gallery', href: '#' },
-                { name: 'Photo Gallery', href: '#' }
-            ]
-        },
-        {
-            name: 'Career',
+            name: 'আমাদের সম্পর্কে',
             href: '#',
             submenu: null
         },
         {
-            name: 'Contact',
+            name: 'প্রশাসন',
+            href: '#',
+            submenu: [
+                { name: 'প্রধান শিক্ষক', href: '#' },
+                { name: 'সহকারী প্রধান শিক্ষক', href: '#' },
+                { name: 'সহকারী শিক্ষক', href: '#' },
+                { name: 'স্টাফ', href: '#' }
+            ]
+        },
+        {
+            name: 'একাডেমিক',
+            href: '#',
+            submenu: [
+                { name: 'ইতিহাস', href: '#' },
+                { name: 'ড্রেস কোড', href: '#' },
+                { name: 'পাবলিক পরীক্ষা ফলাফল', href: '#' }
+            ]
+        },
+        {
+            name: 'নোটিস ও ইভেন্টস',
+            href: '#',
+            submenu: [
+                { name: 'নোটিস', href: '#' },
+                { name: 'ইভেন্টস', href: '#' }
+            ]
+        },
+        {
+            name: 'ডাউনলোড',
+            href: '#',
+            submenu: [
+                { name: 'ফর্মস', href: '#' },
+                { name: 'অন্যান্য ডকুমেন্টস', href: '#' }
+            ]
+        },
+        {
+            name: 'মিডিয়া সেন্টার',
+            href: '#',
+            submenu: [
+                { name: 'ভিডিও গ্যালারি', href: '#' },
+                { name: 'ফটো গ্যালারি', href: '#' }
+            ]
+        },
+        {
+            name: 'ক্যারিয়ার',
+            href: '#',
+            submenu: null
+        },
+        {
+            name: 'যোগাযোগ',
             href: '#',
             submenu: null
         }

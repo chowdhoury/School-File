@@ -3,47 +3,64 @@
 
 const Footer = () => {
     return (
-        <footer className="bg-[#013223] text-white">
-            <div className="max-w-7xl mx-auto px-4 py-5">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    {/* School Basic Info */}
-                    <div className="text-center md:text-left">
-                        <h3 className="text-xl font-bold mb-2">Moragacha Secondary School</h3>
-                        <p className="text-gray-300 text-sm">
-                            EIIN No: 117639<br />
-                            Moragacha, Khoksa, Kushtia-7020
-                        </p>
-                    </div>
-
-                    {/* Useful Links */}
-                    <div className="text-center">
-                        <h4 className="font-semibold mb-3">Quick Links</h4>
-                        <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-300">
-                            <a href="#" className="hover:text-white">Home</a>
-                            <a href="#" className="hover:text-white">About</a>
-                            <a href="#" className="hover:text-white">Academics</a>
-                            <a href="#" className="hover:text-white">Contact</a>
-                        </div>
-                    </div>
-
-                    {/* Contact */}
-                    <div className="text-center md:text-right">
-                        <h4 className="font-semibold mb-3">Contact Us</h4>
-                        <p className="text-gray-300 text-sm">
-                            Phone: +880 XXXX-XXXXXX<br />
-                            Email: info@moragacha.edu.bd
-                        </p>
-                    </div>
-                </div>
-
-                {/* Bottom Bar or Copyright */}
-                <div className="border-t border-gray-700 mt-8 pt-6 text-center">
-                    <p className="text-sm">
-                        © {new Date().getFullYear()} Moragacha Secondary School. All rights reserved.
-                    </p>
-                </div>
+      <footer className="bg-[#013223] text-white">
+        <div className="max-w-7xl mx-auto px-4 py-5">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* School Basic Info */}
+            <div className="text-center md:text-left">
+              <h3 className="text-xl font-bold mb-2">
+                মোড়াগাছা মাধ্যমিক বিদ্যালয়
+              </h3>
+              <p className="text-gray-300 text-sm">
+                EIIN: ১১৭৬৩৯
+                <br />
+                মোড়াগাছা, খোকসা, কুষ্টিয়া-৭০২০
+              </p>
             </div>
-        </footer>
+
+            {/* Useful Links */}
+            <div className="text-center">
+              <h4 className="font-semibold mb-3">Quick Links</h4>
+              <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-300">
+                <a href="#" className="hover:text-white">
+                  হোম
+                </a>
+                <a href="#" className="hover:text-white">
+                  আমাদের সম্পর্কে
+                </a>
+                <a href="#" className="hover:text-white">
+                  একাডেমিক
+                </a>
+                <a href="#" className="hover:text-white">
+                  যোগাযোগ
+                </a>
+              </div>
+            </div>
+
+            {/* Contact */}
+            <div className="text-center md:text-right">
+              <h4 className="font-semibold mb-3">যোগাযোগ</h4>
+              <p className="text-gray-300 text-sm">
+                ফোন: ০১৩০৯-১১৭৬৩৯
+                <br />
+                ইমেইল: mhskhoksa1999@gmail.com
+              </p>
+            </div>
+          </div>
+
+          {/* Bottom Bar or Copyright */}
+          <div className="border-t border-gray-700 mt-8 pt-6 text-center">
+            <p className="text-sm">
+              ©{" "}
+              {new Date()
+                .getFullYear()
+                .toString()
+                .replace(/\d/g, (d) => "০১২৩৪৫৬৭৮৯"[d])}{" "}
+              মোড়াগাছা মাধ্যমিক বিদ্যালয় — সর্বস্বত্ব সংরক্ষিত।
+            </p>
+          </div>
+        </div>
+      </footer>
     );
 };
 

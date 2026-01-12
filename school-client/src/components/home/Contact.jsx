@@ -32,46 +32,34 @@ const Contact = () => {
 
     // Administrative card related
     const departments = [
-        {
-            name: 'Admission Office',
-            person: 'Mr. Abdul Karim',
-            phone: '+880 XXXX-XXXXXX',
-            email: 'admission@moragacha.edu.bd'
-        },
-        {
-            name: 'Academic Affairs',
-            person: 'Mrs. Fatema Begum',
-            phone: '+880 XXXX-XXXXXX',
-            email: 'academic@moragacha.edu.bd'
-        },
-        {
-            name: 'Student Services',
-            person: 'Mr. Rahim Ahmed',
-            phone: '+880 XXXX-XXXXXX',
-            email: 'students@moragacha.edu.bd'
-        },
-        {
-            name: 'Accounts & Finance',
-            person: 'Ms. Sabina Yasmin',
-            phone: '+880 XXXX-XXXXXX',
-            email: 'accounts@moragacha.edu.bd'
-        },
-        {
-            name: 'Emergency Contact 🚨',
-            person: 'Md. Lotif Talukdar',
-            phone: '+880 XXXX-XXXXXX',
-            email: 'accounts@talukdar.edu.bd'
-        }
+      {
+        name: "প্রধান শিক্ষক",
+        person: "মোঃ হাসান আলী মোল্লা",
+        phone: "০১৭১৪-৬৭৪৩২৭",
+        email: "mhskhoksa1999@gmail.com",
+      },
+      {
+        name: "সহকারী প্রধান শিক্ষক",
+        person: "মোঃ রেজাউল করিম",
+        phone: "০১৭২৭-২১৬১৭২",
+        email: "mhskhoksa1999@gmail.com",
+      },
+      {
+        name: "অফিস সহায়ক",
+        person: "মোঃ সাইফুল ইসলাম",
+        phone: "০১৯২৮-২৪৩৩৭১",
+        email: "mhskhoksa1999@gmail.com",
+      },
     ];
 
     // Instituted Info related
     const schoolInfo = {
-        name: 'Moragacha Secondary School',
-        address: 'Moragacha, Gazipur, Dhaka, Bangladesh',
-        officehours: 'Saturday-Thursday: 9:00 AM - 5:00 PM',
-        phone: '+880 1234-567890',
-        email: 'moragacha.school@gmail.com',
-        website: 'www.moragachasecondary.edu.bd'
+        name: 'মোড়াগাছা মাধ্যমিক বিদ্যালয়',
+        address: 'মোড়াগাছা, খোকসা, কুষ্টিয়া-৭০২০',
+        officehours: 'রবিবার-বৃহস্পতিবার: সকাল ৯টা - বিকাল ৪টা',
+        phone: '০১৩০৯-১১৭৬৩৯',
+        email: 'mhskhoksa1999@gmail.com',
+        website: 'www.moragachass.edu.bd'
     };
 
     // Administrative card design
@@ -121,111 +109,135 @@ const Contact = () => {
     );
 
     return (
-        <div className="max-w-11/12 w-full mx-auto pb-10">
-            {/* Header */}
-            <div className="text-center mb-8">
-                <h1 className="text-2xl md:text-3xl font-bold">Contact Us</h1>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5 mb-10">
-                {departments.map((dept, index) => (
-                    <AdministrativeCard key={index} dept={dept} index={index} />
-                ))}
-            </div>
-
-            {/* Map and Form Section */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                {/* Map Section */}
-                <div className="bg-white border border-[#013223] rounded-xl shadow-md p-6 space-y-4">
-                    <h3 className="text-2xl font-semibold text-[#013223] mb-4">{schoolInfo.name}</h3>
-
-                    <div className="space-y-2 text-gray-700">
-                        <p><span className="font-semibold text-[#013223]">📍 Address:</span> {schoolInfo.address}</p>
-                        <p><span className="font-semibold text-[#013223]">⏰ Office Hours:</span> {schoolInfo.officehours}</p>
-                        <p><span className="font-semibold text-[#013223]">📞 Phone:</span> {schoolInfo.phone}</p>
-                        <p><span className="font-semibold text-[#013223]">✉ Email:</span> {schoolInfo.email}</p>
-                        <p><span className="font-semibold text-[#013223]">🌐 Website:</span> {schoolInfo.website}</p>
-                    </div>
-
-                    {/* Google Map */}
-                    <div className="w-full h-56 rounded-lg overflow-hidden border border-gray-300 shadow-lg">
-                        <iframe
-                            title="school-location"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.00828238102!2d90.41251877594135!3d23.81033247873302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDQ4JzM3LjIiTiA5MMKwMjQnNTIuOSJF!5e0!3m2!1sen!2sbd!4v1700000000000"
-                            width="100%" height="100%" allowFullScreen loading="lazy"
-                        ></iframe>
-                    </div>
-                </div>
-
-                {/* Contact Form */}
-                <div className="bg-white rounded-2xl shadow-md p-6 border">
-                    <h2 className="text-2xl font-bold mb-6">Send us a Message</h2>
-
-                    <form onSubmit={handleSubmit} className="space-y-5 lg:space-y-8">
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <FormInput
-                                label="Full Name"
-                                type="text"
-                                name="name"
-                                value={formData.name}
-                                required={true}
-                                placeholder="Enter your full name"
-                            />
-                            <FormInput
-                                label="Email Address"
-                                type="email"
-                                name="email"
-                                value={formData.email}
-                                required={true}
-                                placeholder="Enter your email"
-                            />
-                        </div>
-
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <FormInput
-                                label="Phone Number"
-                                type="tel"
-                                name="phone"
-                                value={formData.phone}
-                                required={false}
-                                placeholder="Enter your phone number"
-                            />
-                            <FormInput
-                                label="Subject"
-                                type="select"
-                                name="subject"
-                                value={formData.subject}
-                                required={true}
-                                placeholder="Select a subject"
-                                options={[
-                                    { value: 'admission', label: 'Admission Inquiry' },
-                                    { value: 'academic', label: 'Academic Information' },
-                                    { value: 'feedback', label: 'Feedback' },
-                                    { value: 'complaint', label: 'Complaint' },
-                                    { value: 'other', label: 'Other' }
-                                ]}
-                            />
-                        </div>
-
-                        <FormInput
-                            label="Message"
-                            type="textarea"
-                            name="message"
-                            value={formData.message}
-                            required={true}
-                            placeholder="Type your message here..."
-                        />
-
-                        <button
-                            type="submit"
-                            className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105"
-                        >
-                            Send Message
-                        </button>
-                    </form>
-                </div>
-            </div>
+      <div className="max-w-11/12 w-full mx-auto pb-10">
+        {/* Header */}
+        <div className="text-center mb-8">
+          <h1 className="text-2xl md:text-3xl font-bold">যোগাযোগ</h1>
         </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5 mb-10">
+          {departments.map((dept, index) => (
+            <AdministrativeCard key={index} dept={dept} index={index} />
+          ))}
+        </div>
+
+        {/* Map and Form Section */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {/* Map Section */}
+          <div className="bg-white border border-[#013223] rounded-xl shadow-md p-6 space-y-4">
+            <h3 className="text-2xl font-semibold text-[#013223] mb-4">
+              {schoolInfo.name}
+            </h3>
+
+            <div className="space-y-2 text-gray-700">
+              <p>
+                <span className="font-semibold text-[#013223]">📍 ঠিকানা:</span>{" "}
+                {schoolInfo.address}
+              </p>
+              <p>
+                <span className="font-semibold text-[#013223]">
+                  ⏰ অফিস সময়:
+                </span>{" "}
+                {schoolInfo.officehours}
+              </p>
+              <p>
+                <span className="font-semibold text-[#013223]">📞 ফোন:</span>{" "}
+                {schoolInfo.phone}
+              </p>
+              <p>
+                <span className="font-semibold text-[#013223]">✉ ইমেইল:</span>{" "}
+                {schoolInfo.email}
+              </p>
+              <p>
+                <span className="font-semibold text-[#013223]">
+                  🌐 ওয়েবসাইট:
+                </span>{" "}
+                {schoolInfo.website}
+              </p>
+            </div>
+
+            {/* Google Map */}
+            <div className="w-full h-56 rounded-lg overflow-hidden border border-gray-300 shadow-lg">
+              <iframe
+                title="school-location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.8893535354223!2d89.26056157589865!3d23.822533286002148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe8d74a29549f3%3A0xf746297bf3ed0122!2z4Kau4KeL4Kec4Ka-4KaX4Ka-4Kab4Ka-IOCmruCmvuCmp-CnjeCmr-CmruCmv-CmlSDgpqzgpr_gpqbgp43gpq_gpr7gprLgp58!5e0!3m2!1sen!2sbd!4v1768226999040!5m2!1sen!2sbd"
+                width="100%"
+                height="100%"
+                allowFullScreen
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+
+          {/* Contact Form */}
+          <div className="bg-white rounded-2xl shadow-md p-6 border">
+            <h2 className="text-2xl font-bold mb-6">আমাদেরকে মেসেজ পাঠান</h2>
+
+            <form onSubmit={handleSubmit} className="space-y-5 lg:space-y-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <FormInput
+                  label="নাম"
+                  type="text"
+                  name="name"
+                  value={formData.name}
+                  required={true}
+                  placeholder="আপনার নাম লিখুন"
+                />
+                <FormInput
+                  label="ইমেইল ঠিকানা"
+                  type="email"
+                  name="email"
+                  value={formData.email}
+                  required={true}
+                  placeholder="আপনার ইমেইল ঠিকানা লিখুন"
+                />
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <FormInput
+                  label="ফোন নম্বর"
+                  type="tel"
+                  name="phone"
+                  value={formData.phone}
+                  required={false}
+                  placeholder="আপনার ফোন নম্বর লিখুন"
+                />
+                <FormInput
+                  label="বিষয়"
+                  type="select"
+                  name="subject"
+                  value={formData.subject}
+                  required={true}
+                  placeholder="বিষয় নির্বাচন করুন"
+                  options={[
+                    { value: "admission", label: "ভর্তি সংক্রান্ত" },
+                    { value: "academic", label: "শিক্ষা সংক্রান্ত তথ্য" },
+                    { value: "feedback", label: "প্রতিক্রিয়া" },
+                    { value: "complaint", label: "অভিযোগ" },
+                    { value: "other", label: "অন্যান্য" },
+                  ]}
+                />
+              </div>
+
+              <FormInput
+                label="মেসেজ"
+                type="textarea"
+                name="message"
+                value={formData.message}
+                required={true}
+                placeholder="আপনার মেসেজ এখানে লিখুন..."
+              />
+
+              <button
+                type="submit"
+                className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105"
+              >
+                বার্তা পাঠান
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
     );
 };
 

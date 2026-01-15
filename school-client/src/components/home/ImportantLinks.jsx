@@ -33,7 +33,7 @@ const ImportantLinks = () => {
     },
     {
       name: "বাংলাদেশ শিক্ষাতথ্য ও পরিসংখ্যান ব্যুরো",
-      url: "http://www.banbeis.gov.bd/",
+      url: "https://banbeis.gov.bd/",
     },
   ];
 

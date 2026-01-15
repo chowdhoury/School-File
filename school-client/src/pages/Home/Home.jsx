@@ -14,12 +14,12 @@ import Slider from "../../components/home/Slider";
 const Home = () => {
     return (
         <div>
-            <Header></Header>
+            {/* <Header></Header> */}
 
             {/* Sticky Navigation */}
-            <div className="sticky top-0 z-50 bg-white shadow-md">
+            {/* <div className="sticky top-0 z-50 bg-white shadow-md">
                 <Navigation></Navigation>
-            </div>
+            </div> */}
 
             <LatestNews></LatestNews>
 
@@ -45,7 +45,7 @@ const Home = () => {
 
             <Contact></Contact>
 
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
         </div>
     );
 };

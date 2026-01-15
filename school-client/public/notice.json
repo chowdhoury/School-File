@@ -21,6 +21,28 @@
     },
     "principal": {
         "image": "https://i.postimg.cc/Wp9Fg6cr/186486441-809994179939840-3374861526206625084-n-Cropped.jpg",
-        "name": "মোঃ হাসান আলী মোল্লা"
+        "name": "মোঃ হাসান আলী মোল্লা",
+        "designation": "প্রধান শিক্ষক",
+        "phone": "০১৭১৪-৬৭৪৩২৭",
+        "email": "mhskhoksa1999@gmail.com",
+        "address": "মোড়াগাছা, খোকসা, কুষ্টিয়া",
+        "bloodGroup": "B+",
+        "dateOfBirth": "২৬ সেপ্টেম্বর ১৯৬৮",
+        "joiningDate": "০১ জানুয়ারি ১৯৯৯",
+        "indexNo": "K১০১৯২৭৯",
+        "pdsID": "১০০৩৭১২০২"
+    },
+    "assistantPrincipal": {
+        "image": "https://i.postimg.cc/G3BXH1t1/00176275-6xak5wqyuquro-Cropped.jpg",
+        "name": "মোঃ রেজাউল করিম",
+        "designation": "সহকারী প্রধান শিক্ষক",
+        "phone": "০১৭২৭-২১৬১৭২",
+        "email": "rezaulkarim117639@gmail.com",
+        "address": "মোড়াগাছা, খোকসা, কুষ্টিয়া",
+        "bloodGroup": "A+",
+        "dateOfBirth": "০৩ এপ্রিল ১৯৮০",
+        "joiningDate": "২৯ জুলাই ২০২০",
+        "indexNo": "K১০১৯২৮০",
+        "pdsID": "১০০৩৭১২০৪"
     }
 }

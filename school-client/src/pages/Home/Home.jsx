@@ -36,7 +36,7 @@ const Home = () => {
             </div>
 
             <section>
-                <h1 className="text-2xl md:text-3xl font-bold text-center pb-7">Moments & Memories — Media Gallery</h1>
+                <h1 className="text-2xl md:text-3xl font-bold text-center pb-7">ফটো গ্যালারি</h1>
                 <div className="max-w-11/12 w-full mx-auto flex flex-col lg:flex-row justify-between gap-5 lg:gap-10 pb-10">
                     <SlideGalleryImage></SlideGalleryImage>
                     <GalleryImagePreview></GalleryImagePreview>

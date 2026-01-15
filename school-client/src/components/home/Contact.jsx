@@ -45,9 +45,21 @@ const Contact = () => {
         email: "mhskhoksa1999@gmail.com",
       },
       {
+        name: "সহকারী শিক্ষক (কম্পিউটার)",
+        person: "মোছা মেরিনা আক্তার",
+        phone: "০১৭১০-২৪১৮২৮",
+        email: "mhskhoksa1999@gmail.com",
+      },
+      {
         name: "অফিস সহায়ক",
         person: "মোঃ সাইফুল ইসলাম",
         phone: "০১৯২৮-২৪৩৩৭১",
+        email: "mhskhoksa1999@gmail.com",
+      },
+      {
+        name: "নিরাপত্তাকর্মী",
+        person: "মোঃ নূর আলম",
+        phone: "০১৯১৭-৫৮২১৬৫",
         email: "mhskhoksa1999@gmail.com",
       },
     ];

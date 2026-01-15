@@ -1,61 +1,68 @@
+import schoolImage from "../../assets/img/schoolImage.jpg";
+
 const History = () => {
-    return (
-        <div className="w-full lg:max-w-7xl mx-auto">
-            {/* Section Header */}
-            <div className="">
-                <h2 className="text-2xl md:text-3xl font-bold">History of Our School</h2>
-                <p className="mt-2 text-base sm:text-lg">
-                    A Journey of Growth & Excellence — Moragacha Secondary School
-                </p>
-                <div className="w-24 h-1 bg-[#006747] mt-4 rounded-full"></div>
-            </div>
+  return (
+    <div className="w-full lg:max-w-7xl mx-auto">
+      {/* Section Header */}
+      <div className="">
+        <h2 className="text-2xl md:text-3xl font-bold">সংক্ষিপ্ত ইতিহাস</h2>
+        <p className="mt-2 text-base sm:text-lg">মোড়াগাছা মাধ্যমিক বিদ্যালয়</p>
+        <div className="w-24 h-1 bg-[#006747] mt-4 rounded-full"></div>
+      </div>
 
-            {/* Timeline */}
-            <div className="relative mt-10 border-l-4 border-[#013223] pl-6 space-y-12">
-
-                {/* Point 1 */}
-                <div className="relative">
-                    <div className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-[#013223] border-4 border-white shadow-lg"></div>
-                    <h3 className="text-xl font-semibold text-[#013223] ml-5">Founded — 1982</h3>
-                    <p className="text-gray-700 mt-2 text-justify">
-                        Moragacha Secondary School began its academic journey in 1982 with a small tin-shed
-                        structure, limited classrooms, and a vision to deliver quality education to rural students.
-                    </p>
-                </div>
-
-                {/* Point 2 */}
-                <div className="relative">
-                    <div className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-[#013223] border-4 border-white shadow-lg"></div>
-                    <h3 className="text-xl font-semibold text-[#013223] ml-5">Infrastructure Development — 1995</h3>
-                    <p className="text-gray-700 mt-2 text-justify">
-                        Due to community support and outstanding academic performance, the school expanded to
-                        a two-story academic building and introduced science labs and a library.
-                    </p>
-                </div>
-
-                {/* Point 3 */}
-                <div className="relative">
-                    <div className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-[#013223] border-4 border-white shadow-lg"></div>
-                    <h3 className="text-xl font-semibold text-[#013223] ml-5">Academic Excellence — 2008 - Present</h3>
-                    <p className="text-gray-700 mt-2 text-justify">
-                        The school consistently achieved top results in SSC exams. Students began participating
-                        in scouting, sports, cultural activities, and science fairs at district level.
-                    </p>
-                </div>
-
-                {/* Point 4 */}
-                <div className="relative">
-                    <div className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-[#013223] border-4 border-white shadow-lg"></div>
-                    <h3 className="text-xl font-semibold text-[#013223] ml-5">Digital Classroom Era — Present</h3>
-                    <p className="text-gray-700 mt-2 text-justify">
-                        With multimedia classrooms, digital content, online resources and a strong teaching team,
-                        Moragacha Secondary School continues its mission: **Transforming Education, Shaping the Future**.
-                    </p>
-                </div>
-
-            </div>
+      {/* Image + Text */}
+      <div className="mt-6 grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 items-start">
+        <div className="w-full overflow-hidden border border-gray-200 bg-white shadow-sm">
+          <div className="w-full h-auto">
+            <img
+              src={schoolImage}
+              alt="মোড়াগাছা মাধ্যমিক বিদ্যালয়ের একাডেমিক ভবন"
+              loading="lazy"
+              className="w-full"
+            />
+          </div>
         </div>
-    );
+
+        <div className="text-justify text-gray-800 leading-relaxed">
+          <p>
+            কুষ্টিয়া জেলার খোকসা উপজেলায় অবস্থিত মোড়াগাছা মাধ্যমিক বিদ্যালয় অত্র
+            অঞ্চলের একটি সুপ্রতিষ্ঠিত ও ঐতিহ্যবাহী শিক্ষা প্রতিষ্ঠান। প্রাকৃতিক
+            সৌন্দর্যে ঘেরা শান্ত ও মনোরম গ্রামীণ পরিবেশে অবস্থিত এ বিদ্যালয়টি
+            শিক্ষার্থীদের জন্য একটি নিরাপদ, সুশৃঙ্খল ও শিক্ষাবান্ধব পরিবেশ
+            নিশ্চিত করে, যা মানসম্মত শিক্ষাদানে সহায়ক ভূমিকা পালন করে।
+            <br />
+            <br />
+            বিস্তৃত পরিসরে গড়ে ওঠা বিদ্যালয়টিতে রয়েছে সুসংগঠিত একাডেমিক ভবন,
+            পর্যাপ্ত শ্রেণিকক্ষ, খেলার মাঠ এবং প্রয়োজনীয় শিক্ষাসহায়ক অবকাঠামো।
+            নিয়মিত পাঠদানের পাশাপাশি সহশিক্ষা কার্যক্রমের মাধ্যমে শিক্ষার্থীদের
+            মানসিক, শারীরিক ও নৈতিক বিকাশে বিদ্যালয়টি গুরুত্বপূর্ণ ভূমিকা রেখে
+            চলেছে।
+            <br />
+            <br />
+          </p>
+        </div>
+      </div>
+
+      <div className="mt-4 text-justify text-gray-800 leading-relaxed">
+        <p>
+          ১৯৯৯ সালে প্রতিষ্ঠার পর থেকেই মোড়াগাছা মাধ্যমিক বিদ্যালয় সুনাম ও
+          সাফল্যের সঙ্গে শিক্ষা কার্যক্রম পরিচালনা করে আসছে। বিদ্যালয়টি খোকসা
+          শহর থেকে প্রায় ২.৫ কিলোমিটার দূরে অবস্থিত এবং এর পাশ দিয়ে
+          ঢাকা–কুষ্টিয়া মহাসড়ক অতিক্রম করেছে, যা যোগাযোগ ব্যবস্থাকে আরও সহজ
+          করেছে। বিদ্যালয় সংলগ্ন এলাকায় রয়েছে মোড়াগাছা কমিউনিটি ক্লিনিক এবং
+          মাত্র ১০০ মিটার দূরত্বে অবস্থিত মোড়াগাছা সরকারি প্রাথমিক বিদ্যালয়, যা
+          একটি সমন্বিত শিক্ষাবান্ধব পরিবেশ গড়ে তুলেছে। 
+          
+          <br /><br />বর্তমানে এ প্রতিষ্ঠানে ১
+          জন প্রধান শিক্ষক, ১ জন সহকারী প্রধান শিক্ষক এবং ১৩ জন সহকারী শিক্ষক
+          দক্ষতা ও নিষ্ঠার সঙ্গে পাঠদান কার্যক্রম পরিচালনা করছেন। পাশাপাশি
+          প্রশাসনিক ও দাপ্তরিক কার্যক্রম সুষ্ঠুভাবে পরিচালনার জন্য ৬ জন
+          কর্মকর্তা-কর্মচারী নিয়োজিত রয়েছেন। বিদ্যালয়টিতে বর্তমানে ৩৫০ জনেরও
+          বেশি শিক্ষার্থী অধ্যয়নরত রয়েছে।
+        </p>
+      </div>
+    </div>
+  );
 };
 
 export default History;

@@ -2,69 +2,72 @@ import { HiChevronRight } from 'react-icons/hi';
 
 const Navigation = () => {
     const menuItems = [
-        {
-            name: 'হোম',
-            href: '#',
-            submenu: null
-        },
-        {
-            name: 'আমাদের সম্পর্কে',
-            href: '#',
-            submenu: null
-        },
-        {
-            name: 'প্রশাসন',
-            href: '#',
-            submenu: [
-                { name: 'প্রধান শিক্ষক', href: '#' },
-                { name: 'সহকারী প্রধান শিক্ষক', href: '#' },
-                { name: 'সহকারী শিক্ষক', href: '#' },
-                { name: 'স্টাফ', href: '#' }
-            ]
-        },
-        {
-            name: 'একাডেমিক',
-            href: '#',
-            submenu: [
-                { name: 'ইতিহাস', href: '#' },
-                { name: 'ড্রেস কোড', href: '#' },
-                { name: 'পাবলিক পরীক্ষা ফলাফল', href: '#' }
-            ]
-        },
-        {
-            name: 'নোটিস ও ইভেন্টস',
-            href: '#',
-            submenu: [
-                { name: 'নোটিস', href: '#' },
-                { name: 'ইভেন্টস', href: '#' }
-            ]
-        },
-        {
-            name: 'ডাউনলোড',
-            href: '#',
-            submenu: [
-                { name: 'ফর্মস', href: '#' },
-                { name: 'অন্যান্য ডকুমেন্টস', href: '#' }
-            ]
-        },
-        {
-            name: 'মিডিয়া সেন্টার',
-            href: '#',
-            submenu: [
-                { name: 'ভিডিও গ্যালারি', href: '#' },
-                { name: 'ফটো গ্যালারি', href: '#' }
-            ]
-        },
-        {
-            name: 'ক্যারিয়ার',
-            href: '#',
-            submenu: null
-        },
-        {
-            name: 'যোগাযোগ',
-            href: '#',
-            submenu: null
-        }
+      {
+        name: "হোম",
+        href: "#",
+        submenu: null,
+      },
+      {
+        name: "পরিচিতি",
+        href: "#",
+        submenu: [
+          { name: "এক নজরে", href: "#" },
+          { name: "সংক্ষিপ্ত ইতিহাস", href: "#" },
+        ],
+      },
+      {
+        name: "শিক্ষক ও কর্মচারী",
+        href: "#",
+        submenu: [
+          { name: "প্রধান শিক্ষক", href: "#" },
+          { name: "সহকারী প্রধান শিক্ষক", href: "#" },
+          { name: "শিক্ষক-শিক্ষিকা", href: "#" },
+          { name: "কর্মচারী", href: "#" },
+        ],
+      },
+      {
+        name: "একাডেমিক",
+        href: "#",
+        submenu: [
+          { name: "ড্রেস কোড", href: "#" },
+          { name: "ছাত্র-ছাত্রী", href: "#" },
+          { name: "ক্লাস রুটিন", href: "#" },
+          { name: "পাবলিক পরীক্ষা ফলাফল", href: "#" },
+          { name: "একাডেমিক ক্যালেন্ডার", href: "#" },
+        ],
+      },
+      {
+        name: "ভর্তি",
+        href: "#",
+        submenu: [
+          { name: "ভর্তি নোটিশ", href: "#" },
+          { name: "ভর্তি ফরম", href: "#" },
+          { name: "ভর্তি পরীক্ষার ফলাফল", href: "#" },
+        ],
+      },
+      {
+        name: "ফলাফল",
+        href: "#",
+        submenu: [
+          { name: "পাবলিক পরীক্ষার ফলাফল", href: "#" },
+          { name: "বিদ্যালয়ের অভ্যন্তরীণ পরীক্ষার ফলাফল", href: "#" },
+        ],
+      },
+      {
+        name: "নোটিশ বোর্ড",
+        href: "#",
+        submenu: null,
+      },
+      {
+        name: "ফটো গ্যালারি",
+        href: "#",
+        submenu: null,
+      },
+      {
+        name: "যোগাযোগ",
+        href: "#",
+        submenu: null,
+      },
     ];
 
     return (
@@ -141,7 +144,7 @@ const Navigation = () => {
                                                     <HiChevronRight className="text-2xl rotate-90 group-hover:-rotate-90" />
                                                 </a>
 
-                                                <ul className="absolute top-full right-0 mt-2 bg-white border border-[#013223bd] rounded-lg w-full z-30 shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0">
+                                                <ul className="absolute top-full right-0 mt-2 bg-white border border-[#013223bd] rounded-lg w-56 z-30 shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0">
                                                     {item.submenu.map((subItem, subIndex) => (
                                                         <li key={subIndex}>
                                                             <a className="hover:text-white text-[#013223] hover:bg-[#013223] text-[16px] -ml-2 font-semibold block transition-colors duration-200">
@@ -165,7 +168,7 @@ const Navigation = () => {
                     {/* Navbar End */}
                     <div className="navbar-end">
                         <a className="px-3 py-1.5 bg-[#013223] text-white font-bold rounded-lg hover:bg-[#013223]/90 active:bg-[#013223] transition-colors duration-200 border-none cursor-pointer">
-                            Login
+                            লগইন
                         </a>
                     </div>
                 </div>

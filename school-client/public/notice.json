@@ -2,25 +2,25 @@
     "notices": [
         {
             "id": 1,
-            "date": 1,
-            "month": "January",
-            "title": "Welcome to Moragacha Secondary School",
-            "body": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odit quas harum at inventore vero assumenda sunt, voluptas consequuntur, minima sed corrupti in exercitationem nemo dolorem excepturi! Quaerat, aut commodi."
+            "date": "১",
+            "month": "জানুয়ারি",
+            "title": "মোড়াগাছা মাধমিক বিদ্দালয়ে আপনাকে স্বাগতম",
+            "body": ""
         },
         {
             "id": 2,
-            "date": 24,
-            "month": "February",
-            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
-            "body": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odit quas harum at inventore vero assumenda sunt, voluptas consequuntur, minima sed corrupti in exercitationem nemo dolorem excepturi! Quaerat, aut commodi."
+            "date": "২৪",
+            "month": "ফেব্রুয়ারি",
+            "title": "নতুন শিক্ষাবর্ষ ২০২৫-২০২৬ এর ভর্তি কার্যক্রম শুরু",
+            "body": "আমাদের বিদ্যালয়ে নতুন শিক্ষাবর্ষ ২০২৫-২০২৬ এর ভর্তি কার্যক্রম শুরু হয়েছে। আগ্রহী শিক্ষার্থীরা অফিসে যোগাযোগ করতে পারেন।"
         }
     ],
     "chairman": {
-        "image": "https://edutechbdbucket.s3.amazonaws.com/media/tenants/rajukcollege/page/WhatsApp_Image_2025-02-15_at_00.06.14_1_KqaB3uR.jpeg",
-        "name": "Md Hafizur Rahman"
+        "image": "https://file-khulna.portal.gov.bd/uploads/cbbfd07b-dbde-48ed-9078-baa0ce659e38/692/fee/868/692fee8685c29682996067.png",
+        "name": "মোঃ মাহমুদুল হাসান"
     },
     "principal": {
-        "image": "https://edutechbdbucket.s3.amazonaws.com/media/tenants/rajukcollege/page/WhatsApp_Image_2025-02-15_at_00.06.14_1_KqaB3uR.jpeg",
-        "name": "Md Hasan Ali Mollah"
+        "image": "https://i.postimg.cc/Wp9Fg6cr/186486441-809994179939840-3374861526206625084-n-Cropped.jpg",
+        "name": "মোঃ হাসান আলী মোল্লা"
     }
 }

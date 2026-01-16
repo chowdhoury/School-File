@@ -9,6 +9,7 @@ import Teachers from "../pages/Teachers/Teachers";
 import Staff from "../pages/Teachers/Staff";
 import Routine from "../pages/Academic/Routine";
 import Students from "../pages/Academic/Students";
+import Calender from "../pages/Academic/Calender";
 
 export const router = createBrowserRouter([
   {
@@ -51,6 +52,10 @@ export const router = createBrowserRouter([
         path: "/academic/students",
         element: <Students/>
       },
+      {
+        path: "/academic/calendar",
+        element: <Calender/>
+      }
     ],
   },
 ]);

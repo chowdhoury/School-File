@@ -7,7 +7,8 @@ import Headmaster from "../pages/Teachers/Headmaster";
 import AssistantHeadmaster from "../pages/Teachers/AssistantHeadmaster";
 import Teachers from "../pages/Teachers/Teachers";
 import Staff from "../pages/Teachers/Staff";
-import DressCode from "../pages/Academic/DressCode";
+import Routine from "../pages/Academic/Routine";
+import Students from "../pages/Academic/Students";
 
 export const router = createBrowserRouter([
   {
@@ -41,6 +42,14 @@ export const router = createBrowserRouter([
       {
         path: "/staff",
         element: <Staff />,
+      },
+      {
+        path: "/academic/routine",
+        element: <Routine />,
+      },
+      {
+        path: "/academic/students",
+        element: <Students/>
       },
     ],
   },

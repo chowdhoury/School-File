@@ -1,0 +1,402 @@
+.routine-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.routine-header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.routine-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.routine-subtitle {
+    margin: 10px 0 0 0;
+    font-size: 1.1rem;
+    opacity: 0.95;
+}
+
+.routine-controls {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+
+.control-group {
+    margin-bottom: 20px;
+}
+
+.control-group:last-child {
+    margin-bottom: 0;
+}
+
+.control-group label {
+    display: block;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.class-buttons,
+.view-mode-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.class-btn,
+.view-btn {
+    padding: 10px 20px;
+    border: 2px solid #667eea;
+    background: white;
+    color: #667eea;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.class-btn:hover,
+.view-btn:hover {
+    background: #f0f4ff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(102, 126, 234, 0.2);
+}
+
+.class-btn.active,
+.view-btn.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.day-select,
+.teacher-select {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: white;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.day-select:focus,
+.teacher-select:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.routine-content {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+
+.schedule-title {
+    margin: 0 0 20px 0;
+    color: #333;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #667eea;
+}
+
+.routine-table-wrapper {
+    overflow-x: auto;
+}
+
+.routine-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.routine-table thead {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.routine-table th {
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.routine-table td {
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.routine-table tbody tr {
+    transition: background 0.2s ease;
+}
+
+.routine-table tbody tr:hover {
+    background: #f8f9ff;
+}
+
+.routine-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.break-row {
+    background: #fff9e6 !important;
+}
+
+.break-row:hover {
+    background: #fff5d1 !important;
+}
+
+.time-cell {
+    font-weight: 600;
+    color: #667eea;
+    white-space: nowrap;
+}
+
+.subject-cell {
+    font-weight: 600;
+    color: #333;
+}
+
+.teacher-cell {
+    color: #666;
+}
+
+.room-cell {
+    color: #888;
+    font-weight: 500;
+}
+
+.day-cell {
+    font-weight: 600;
+    color: #667eea;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: #999;
+}
+
+.empty-state p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* Weekly Overview Grid */
+.weekly-overview {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.overview-title {
+    margin: 0 0 20px 0;
+    color: #333;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #667eea;
+}
+
+.weekly-grid {
+    display: grid;
+    grid-template-columns: 120px repeat(5, 1fr);
+    gap: 2px;
+    background: #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.time-column,
+.day-column {
+    display: contents;
+}
+
+.grid-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 15px 10px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.time-slot {
+    background: #f5f5f5;
+    padding: 15px 10px;
+    font-weight: 600;
+    color: #667eea;
+    text-align: center;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.schedule-cell {
+    background: white;
+    padding: 12px 8px;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.2s ease;
+    border-radius: 4px;
+}
+
+.schedule-cell:hover {
+    background: #f8f9ff;
+    transform: scale(1.02);
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.15);
+    z-index: 1;
+}
+
+.break-cell {
+    background: #fff9e6 !important;
+}
+
+.break-cell:hover {
+    background: #fff5d1 !important;
+}
+
+.cell-subject {
+    font-weight: 700;
+    color: #333;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.cell-teacher {
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 3px;
+}
+
+.cell-room {
+    font-size: 0.75rem;
+    color: #888;
+    font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .weekly-grid {
+        grid-template-columns: 100px repeat(5, 1fr);
+    }
+    
+    .cell-subject {
+        font-size: 0.85rem;
+    }
+    
+    .cell-teacher,
+    .cell-room {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .routine-header h1 {
+        font-size: 2rem;
+    }
+    
+    .weekly-overview {
+        overflow-x: auto;
+    }
+    
+    .weekly-grid {
+        min-width: 800px;
+    }
+}
+
+@media (max-width: 768px) {
+    .routine-container {
+        padding: 15px;
+    }
+    
+    .routine-header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .class-buttons,
+    .view-mode-buttons {
+        justify-content: center;
+    }
+    
+    .class-btn,
+    .view-btn {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+    
+    .day-select,
+    .teacher-select {
+        max-width: 100%;
+    }
+    
+    .routine-table {
+        font-size: 0.9rem;
+    }
+    
+    .routine-table th,
+    .routine-table td {
+        padding: 10px;
+    }
+    
+    .schedule-title,
+    .overview-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .routine-header h1 {
+        font-size: 1.5rem;
+    }
+    
+    .routine-subtitle {
+        font-size: 0.95rem;
+    }
+    
+    .class-buttons,
+    .view-mode-buttons {
+        flex-direction: column;
+    }
+    
+    .class-btn,
+    .view-btn {
+        width: 100%;
+    }
+    
+    .routine-table {
+        font-size: 0.85rem;
+    }
+}

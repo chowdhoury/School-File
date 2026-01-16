@@ -33,10 +33,8 @@ const Navigation = () => {
       name: "একাডেমিক",
       href: "#",
       submenu: [
-        { name: "ড্রেস কোড", href: "/academic/dress-code" },
-        { name: "ছাত্র-ছাত্রী", href: "/academic/students" },
         { name: "ক্লাস রুটিন", href: "/academic/routine" },
-        { name: "পাবলিক পরীক্ষা ফলাফল", href: "/results/public" },
+        { name: "ছাত্র-ছাত্রীর সংখ্যা", href: "/academic/students" },
         { name: "একাডেমিক ক্যালেন্ডার", href: "/academic/calendar" },
       ],
     },

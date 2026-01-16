@@ -6,6 +6,8 @@ import History from "../pages/History/History";
 import Headmaster from "../pages/Teachers/Headmaster";
 import AssistantHeadmaster from "../pages/Teachers/AssistantHeadmaster";
 import Teachers from "../pages/Teachers/Teachers";
+import Staff from "../pages/Teachers/Staff";
+import DressCode from "../pages/Academic/DressCode";
 
 export const router = createBrowserRouter([
   {
@@ -34,7 +36,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "/teachers/assistant-headmaster",
-        element: <AssistantHeadmaster/>,
+        element: <AssistantHeadmaster />,
+      },
+      {
+        path: "/staff",
+        element: <Staff />,
       },
     ],
   },

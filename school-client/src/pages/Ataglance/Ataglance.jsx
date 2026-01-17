@@ -75,12 +75,12 @@ const Ataglance = () => {
               key={index}
               className={`grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-0 p-4 sm:p-5 transition-colors ${
                 index % 2 === 0 ? "bg-gray-50" : "bg-white"
-              } hover:bg-blue-50`}
+              } hover:bg-emerald-50`}
             >
-              <div className="font-semibold text-gray-700 text-sm sm:text-base">
+              <div className="font-semibold text-gray-700 text-xl sm:text-xl li-font">
                 {item.label} :
               </div>
-              <div className="text-gray-800 text-sm sm:text-base break-words">
+              <div className="text-gray-800 text-xl sm:text-xl break-words li-font">
                 {item.value}
               </div>
             </div>

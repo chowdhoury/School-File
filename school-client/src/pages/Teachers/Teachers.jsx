@@ -6,11 +6,11 @@ const TeacherCard = ({ teacher, index }) => (
     style={{ animationDelay: `${index * 50}ms` }}
   >
     {/* Decorative background gradient */}
-    <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-green-100 to-blue-100 rounded-full -mr-16 -mt-16 opacity-50 group-hover:scale-150 transition-transform duration-500"></div>
+    <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-emerald-100 to-teal-100 rounded-full -mr-16 -mt-16 opacity-50 group-hover:scale-150 transition-transform duration-500"></div>
 
     {/* Avatar */}
     <div className="relative">
-      <div className="w-24 h-24 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-md group-hover:scale-110 transition-transform duration-300">
+      <div className="w-24 h-24 bg-gradient-to-br from-emerald-400 to-teal-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-md group-hover:scale-110 transition-transform duration-300">
         <span className="text-4xl">👨‍🏫</span>
       </div>
       {/* <div className="absolute bottom-2 right-1/2 transform translate-x-1/2 bg-white rounded-full px-3 py-1 text-xs font-semibold text-green-600 shadow-md border border-green-200">
@@ -20,10 +20,10 @@ const TeacherCard = ({ teacher, index }) => (
 
     {/* Name & Designation */}
     <div className="text-center mb-5 mt-2">
-      <h3 className="font-bold text-xl mb-2 text-gray-800 group-hover:text-green-600 transition-colors">
+      <h3 className="font-bold text-xl mb-2 text-gray-800 group-hover:text-emerald-600 transition-colors">
         {teacher.name}
       </h3>
-      <p className="text-sm text-white bg-gradient-to-r from-green-500 to-blue-500 py-1.5 px-3 rounded-full inline-block font-medium shadow-sm">
+      <p className="text-sm text-white bg-gradient-to-r from-emerald-500 to-teal-500 py-1.5 px-3 rounded-full inline-block font-medium shadow-sm">
         {teacher.designation}
       </p>
     </div>
@@ -31,7 +31,7 @@ const TeacherCard = ({ teacher, index }) => (
     {/* Contact Info - Grid Layout */}
     <div className="space-y-3 text-sm">
       <div className="grid grid-cols-2 gap-2">
-        <div className="bg-indigo-50 rounded-lg p-2 text-center hover:bg-indigo-100 transition-colors">
+        <div className="bg-emerald-50 rounded-lg p-2 text-center hover:bg-emerald-100 transition-colors">
           <div className="text-lg mb-1">🆔</div>
           <div className="text-xs text-gray-600 mb-1">ইনডেক্স নং</div>
           <div className="text-xs font-semibold text-gray-800">
@@ -39,7 +39,7 @@ const TeacherCard = ({ teacher, index }) => (
           </div>
         </div>
 
-        <div className="bg-pink-50 rounded-lg p-2 text-center hover:bg-pink-100 transition-colors">
+        <div className="bg-teal-50 rounded-lg p-2 text-center hover:bg-teal-100 transition-colors">
           <div className="text-lg mb-1">🔢</div>
           <div className="text-xs text-gray-600 mb-1">PDS ID</div>
           <div className="text-xs font-semibold text-gray-800">
@@ -49,7 +49,7 @@ const TeacherCard = ({ teacher, index }) => (
       </div>
 
       <div className="grid grid-cols-2 gap-2">
-        <div className="bg-yellow-50 rounded-lg p-2 text-center hover:bg-yellow-100 transition-colors">
+        <div className="bg-emerald-50 rounded-lg p-2 text-center hover:bg-emerald-100 transition-colors">
           <div className="text-lg mb-1">🎂</div>
           <div className="text-xs text-gray-600 mb-1">জন্ম তারিখ</div>
           <div className="text-xs font-semibold text-gray-800">
@@ -57,7 +57,7 @@ const TeacherCard = ({ teacher, index }) => (
           </div>
         </div>
 
-        <div className="bg-purple-50 rounded-lg p-2 text-center hover:bg-purple-100 transition-colors">
+        <div className="bg-teal-50 rounded-lg p-2 text-center hover:bg-teal-100 transition-colors">
           <div className="text-lg mb-1">📅</div>
           <div className="text-xs text-gray-600 mb-1">যোগদান</div>
           <div className="text-xs font-semibold text-gray-800">
@@ -65,26 +65,26 @@ const TeacherCard = ({ teacher, index }) => (
           </div>
         </div>
       </div>
-      <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-lg p-3 hover:shadow-md transition-shadow">
+      <div className="bg-gradient-to-r from-emerald-50 to-teal-50 rounded-lg p-3 hover:shadow-md transition-shadow">
         <div className="flex items-center gap-2 mb-1">
           <span className="text-lg">📞</span>
           <span className="text-gray-600 font-medium text-xs">যোগাযোগ</span>
         </div>
         <a
           href={`tel:${teacher.phone}`}
-          className="text-green-700 font-semibold block hover:text-green-800"
+          className="text-emerald-700 font-semibold block hover:text-emerald-800"
         >
           {teacher.phone}
         </a>
       </div>
-      <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-3 hover:shadow-md transition-shadow">
+      <div className="bg-gradient-to-r from-teal-50 to-emerald-50 rounded-lg p-3 hover:shadow-md transition-shadow">
         <div className="flex items-center gap-2 mb-1">
           <span className="text-lg">📧</span>
           <span className="text-gray-600 font-medium text-xs">ইমেইল</span>
         </div>
         <a
           href={`mailto:${teacher.email}`}
-          className="text-blue-700 text-xs break-all hover:text-blue-800 font-medium"
+          className="text-teal-700 text-xs break-all hover:text-teal-800 font-medium"
         >
           {teacher.email}
         </a>
@@ -127,10 +127,10 @@ const Teachers = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-green-50 via-blue-50 to-purple-50">
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50">
         <div className="text-center">
-          <div className="w-16 h-16 border-4 border-green-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-          <div className="text-xl text-gray-600 font-semibold">
+          <div className="w-16 h-16 border-4 border-emerald-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+          <div className="text-xl text-gray-600 font-semibold li-font">
             লোড হচ্ছে...
           </div>
         </div>
@@ -139,34 +139,14 @@ const Teachers = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 via-blue-50 to-purple-50 py-12 px-4">
+    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50 py-12 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
-        {/* <div className="text-center mb-12 animate-fade-in">
-          <div className="inline-block mb-4">
-            <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white py-2 px-6 rounded-full shadow-lg">
-              <span className="text-3xl mr-2">👨‍🏫</span>
-              <span className="font-bold text-lg">শিক্ষক পরিচিতি</span>
-            </div>
-          </div>
-          <h1 className="text-5xl font-bold bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent mb-4">
-            আমাদের শিক্ষকমণ্ডলী
-          </h1>
-          <div className="w-32 h-1.5 bg-gradient-to-r from-green-600 to-blue-600 mx-auto mb-6 rounded-full"></div>
-          <p className="text-gray-600 text-lg">
-            শিক্ষার আলোয় আলোকিত করছেন{" "}
-            <span className="font-bold text-green-600">
-              {teachers.length} জন
-            </span>{" "}
-            নিবেদিত শিক্ষক
-          </p>
-        </div> */}
         <div className="text-center mb-12">
-          <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4 li-font">
+          <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 li-font">
             আমাদের শিক্ষকমণ্ডলী
           </h3>
-          {/* <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 li-font"></h1> */}
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-green-500 mx-auto rounded-full"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-emerald-500 to-teal-500 mx-auto rounded-full"></div>
         </div>
 
         {/* Search and Filter Section */}
@@ -178,7 +158,7 @@ const Teachers = () => {
               placeholder="শিক্ষক খুঁজুন..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full px-4 py-2 pl-10 border border-gray-300 rounded-lg focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 transition-all text-sm"
+              className="w-full px-4 py-2 pl-10 border border-gray-300 rounded-lg focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500 transition-all text-sm"
             />
             <span className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">
               🔍
@@ -190,7 +170,7 @@ const Teachers = () => {
             <select
               value={filterDesignation}
               onChange={(e) => setFilterDesignation(e.target.value)}
-              className="w-full sm:w-auto px-4 py-2 pr-8 border border-gray-300 rounded-lg focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 transition-all appearance-none bg-white cursor-pointer text-sm"
+              className="w-full sm:w-auto px-4 py-2 pr-8 border border-gray-300 rounded-lg focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500 transition-all appearance-none bg-white cursor-pointer text-sm"
             >
               <option value="all">সকল শিক্ষক</option>
               {designations.slice(1).map((designation, idx) => (

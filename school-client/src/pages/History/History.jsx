@@ -3,15 +3,15 @@ import schoolImage from "../../assets/img/schoolImage.jpg";
 
 const History = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Page Header */}
         <div className="text-center mb-12">
-          <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4 li-font">
+          <h3 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4 li-font">
             আমাদের ইতিহাস
           </h3>
           {/* <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 li-font"></h1> */}
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-green-500 mx-auto rounded-full"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-emerald-500 to-teal-500 mx-auto rounded-full"></div>
         </div>
 
         {/* Content Section */}
@@ -25,21 +25,18 @@ const History = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
             <div className="absolute bottom-6 left-6 text-white">
-              <h2 className="text-2xl md:text-3xl font-bold">
-                মোড়াগাছা মাধ্যমিক বিদ্যালয়
+              <h2 className="text-2xl md:text-3xl font-bold li-font">
+                মোড়াগাছা মাধ্যমিক বিদ্যালয়
               </h2>
-              <p className="text-sm md:text-base mt-2">প্রতিষ্ঠাঃ ১৯৯৯</p>
+              <p className="text-xl sm:text-xl mt-2 li-font">প্রতিষ্ঠাঃ ১৯৯৯</p>
             </div>
           </div>
 
           {/* History Text Content */}
           <div className="p-6 md:p-10 lg:p-12">
             <div className="prose prose-lg max-w-none">
-              <div
-                className="space-y-6 text-gray-700 leading-relaxed text-justify"
-                style={{ fontFamily: "'SolaimanLipi', Arial, sans-serif" }}
-              >
-                <p className="text-lg md:text-xl first-letter:text-5xl first-letter:font-bold first-letter:text-blue-600 first-letter:mr-1 first-letter:float-left">
+              <div className="space-y-6 text-gray-700 leading-relaxed text-justify li-font">
+                <p className="text-lg md:text-xl first-letter:text-5xl first-letter:font-bold first-letter:text-emerald-600 first-letter:mr-1 first-letter:float-left">
                   কুষ্টিয়া জেলার খোকসা উপজেলায় অবস্থিত মোড়াগাছা মাধ্যমিক
                   বিদ্যালয় অত্র অঞ্চলের একটি সুপ্রতিষ্ঠিত ও ঐতিহ্যবাহী শিক্ষা
                   প্রতিষ্ঠান। প্রাকৃতিক সৌন্দর্যে ঘেরা শান্ত ও মনোরম গ্রামীণ
@@ -48,7 +45,7 @@ const History = () => {
                   শিক্ষাদানে সহায়ক ভূমিকা পালন করে।
                 </p>
 
-                <p className="text-base md:text-lg">
+                <p className="text-xl sm:text-xl">
                   বিস্তৃত পরিসরে গড়ে ওঠা বিদ্যালয়টিতে রয়েছে সুসংগঠিত একাডেমিক
                   ভবন, পর্যাপ্ত শ্রেণিকক্ষ, খেলার মাঠ এবং প্রয়োজনীয়
                   শিক্ষাসহায়ক অবকাঠামো। নিয়মিত পাঠদানের পাশাপাশি সহশিক্ষা
@@ -56,7 +53,7 @@ const History = () => {
                   বিকাশে বিদ্যালয়টি গুরুত্বপূর্ণ ভূমিকা রেখে চলেছে।
                 </p>
 
-                <p className="text-base md:text-lg bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
+                <p className="text-xl sm:text-xl bg-emerald-50 p-6 rounded-lg border-l-4 border-emerald-500">
                   ১৯৯৯ সালে প্রতিষ্ঠার পর থেকেই মোড়াগাছা মাধ্যমিক বিদ্যালয়
                   সুনাম ও সাফল্যের সঙ্গে শিক্ষা কার্যক্রম পরিচালনা করে আসছে।
                   বিদ্যালয়টি খোকসা শহর থেকে প্রায় ২.৫ কিলোমিটার দূরে অবস্থিত
@@ -67,12 +64,12 @@ const History = () => {
                   শিক্ষাবান্ধব পরিবেশ গড়ে তুলেছে।
                 </p>
 
-                <div className="bg-gradient-to-r from-green-50 to-blue-50 p-6 rounded-lg">
-                  <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-4 flex items-center">
-                    <span className="w-2 h-8 bg-green-500 mr-3 rounded"></span>
+                <div className="bg-gradient-to-r from-emerald-50 to-teal-50 p-6 rounded-lg">
+                  <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-4 flex items-center li-font">
+                    <span className="w-2 h-8 bg-emerald-500 mr-3 rounded"></span>
                     জনবল
                   </h3>
-                  <p className="text-base md:text-lg">
+                  <p className="text-xl sm:text-xl">
                     বর্তমানে এ প্রতিষ্ঠানে ১ জন প্রধান শিক্ষক, ১ জন সহকারী
                     প্রধান শিক্ষক এবং ১৩ জন সহকারী শিক্ষক দক্ষতা ও নিষ্ঠার সঙ্গে
                     পাঠদান কার্যক্রম পরিচালনা করছেন। পাশাপাশি প্রশাসনিক ও
@@ -82,12 +79,12 @@ const History = () => {
                   </p>
                 </div>
 
-                <div className="bg-gradient-to-r from-yellow-50 to-orange-50 p-6 rounded-lg">
-                  <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-4 flex items-center">
-                    <span className="w-2 h-8 bg-yellow-500 mr-3 rounded"></span>
+                <div className="bg-gradient-to-r from-teal-50 to-cyan-50 p-6 rounded-lg">
+                  <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-4 flex items-center li-font">
+                    <span className="w-2 h-8 bg-teal-500 mr-3 rounded"></span>
                     শিক্ষাগত সাফল্য
                   </h3>
-                  <p className="text-base md:text-lg">
+                  <p className="text-xl sm:text-xl">
                     শিক্ষাগত সাফল্যের ধারাবাহিকতায় বিদ্যালয়টি উল্লেখযোগ্য
                     অগ্রগতি অর্জন করেছে। ২০১১ সালের এস.এস.সি পরীক্ষায়
                     প্রথমবারের মতো ৪ জন শিক্ষার্থী জিপিএ–৫ অর্জন করে এবং ২০১৩

@@ -47,7 +47,7 @@ const ImportantLinks = () => {
       </div>
 
       {/* Links Container */}
-      <div className="bg-white shadow-lg border border-[#013223] rounded-xl p-4 space-y-4">
+      <div className="bg-white shadow-lg border border-[#013223] rounded-xl p-4 space-y-1.5 li-font">
         {links.map((item, index) => (
           <a
             key={index}
@@ -56,7 +56,7 @@ const ImportantLinks = () => {
             rel="noopener noreferrer"
             className="flex items-center justify-between gap-3 bg-[#f8fff9] px-4 py-3 rounded-lg hover:bg-linear-to-r from-[#013223] to-[#006747] transition-all group cursor-pointer border border-transparent hover:border-white"
           >
-            <span className="text-[#013223] font-medium group-hover:text-white transition-colors">
+            <span className="text-[#013223] font-medium text-xl group-hover:text-white transition-colors">
               {item.name}
             </span>
 

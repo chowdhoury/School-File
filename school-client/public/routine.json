@@ -1,0 +1,739 @@
+{
+  "classes": [
+    {
+      "id": 1,
+      "className": "Class 6",
+      "schedule": {
+        "Saturday": [
+          {
+            "time": "8:00-9:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "9:00-10:00",
+            "subject": "Mathematics",
+            "teacher": "Ms. Sultana"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "Science",
+            "teacher": "Mr. Hasan"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "Social Science",
+            "teacher": "Mrs. Akter"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Bengali",
+            "teacher": "Mr. Karim"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "ICT", "teacher": "Mr. Ahmed" }
+        ],
+        "Sunday": [
+          {
+            "time": "8:00-9:00",
+            "subject": "Mathematics",
+            "teacher": "Ms. Sultana"
+          },
+          {
+            "time": "9:00-10:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "Bengali",
+            "teacher": "Mr. Karim"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "Religion",
+            "teacher": "Mr. Islam"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Physical Education",
+            "teacher": "Mr. Ali"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          {
+            "time": "2:00-3:00",
+            "subject": "Art & Craft",
+            "teacher": "Mrs. Begum"
+          }
+        ],
+        "Monday": [
+          { "time": "8:00-9:00", "subject": "Science", "teacher": "Mr. Hasan" },
+          {
+            "time": "9:00-10:00",
+            "subject": "Social Science",
+            "teacher": "Mrs. Akter"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "Mathematics",
+            "teacher": "Ms. Sultana"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Bengali",
+            "teacher": "Mr. Karim"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "Computer", "teacher": "Mr. Ahmed" }
+        ],
+        "Tuesday": [
+          { "time": "8:00-9:00", "subject": "Bengali", "teacher": "Mr. Karim" },
+          {
+            "time": "9:00-10:00",
+            "subject": "Mathematics",
+            "teacher": "Ms. Sultana"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "Science",
+            "teacher": "Mr. Hasan"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Social Science",
+            "teacher": "Mrs. Akter"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "Music", "teacher": "Ms. Jahan" }
+        ],
+        "Wednesday": [
+          {
+            "time": "8:00-9:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "9:00-10:00",
+            "subject": "Science",
+            "teacher": "Mr. Hasan"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "Mathematics",
+            "teacher": "Ms. Sultana"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "Bengali",
+            "teacher": "Mr. Karim"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Physical Education",
+            "teacher": "Mr. Ali"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "Religion", "teacher": "Mr. Islam" }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "className": "Class 7",
+      "schedule": {
+        "Saturday": [
+          {
+            "time": "8:00-9:00",
+            "subject": "Mathematics",
+            "teacher": "Ms. Sultana"
+          },
+          {
+            "time": "9:00-10:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "Bengali",
+            "teacher": "Mr. Karim"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "Science",
+            "teacher": "Mr. Hasan"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Social Science",
+            "teacher": "Mrs. Akter"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "ICT", "teacher": "Mr. Ahmed" }
+        ],
+        "Sunday": [
+          {
+            "time": "8:00-9:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "9:00-10:00",
+            "subject": "Mathematics",
+            "teacher": "Ms. Sultana"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "Science",
+            "teacher": "Mr. Hasan"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "Bengali",
+            "teacher": "Mr. Karim"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Religion",
+            "teacher": "Mr. Islam"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          {
+            "time": "2:00-3:00",
+            "subject": "Art & Craft",
+            "teacher": "Mrs. Begum"
+          }
+        ],
+        "Monday": [
+          { "time": "8:00-9:00", "subject": "Science", "teacher": "Mr. Hasan" },
+          {
+            "time": "9:00-10:00",
+            "subject": "Bengali",
+            "teacher": "Mr. Karim"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "Mathematics",
+            "teacher": "Ms. Sultana"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "Social Science",
+            "teacher": "Mrs. Akter"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "Computer", "teacher": "Mr. Ahmed" }
+        ],
+        "Tuesday": [
+          { "time": "8:00-9:00", "subject": "Bengali", "teacher": "Mr. Karim" },
+          {
+            "time": "9:00-10:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "Mathematics",
+            "teacher": "Ms. Sultana"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "Science",
+            "teacher": "Mr. Hasan"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Physical Education",
+            "teacher": "Mr. Ali"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "Music", "teacher": "Ms. Jahan" }
+        ],
+        "Wednesday": [
+          {
+            "time": "8:00-9:00",
+            "subject": "Mathematics",
+            "teacher": "Ms. Sultana"
+          },
+          {
+            "time": "9:00-10:00",
+            "subject": "Science",
+            "teacher": "Mr. Hasan"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "Social Science",
+            "teacher": "Mrs. Akter"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Bengali",
+            "teacher": "Mr. Karim"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "Religion", "teacher": "Mr. Islam" }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "className": "Class 8",
+      "schedule": {
+        "Saturday": [
+          { "time": "8:00-9:00", "subject": "Science", "teacher": "Mr. Hasan" },
+          {
+            "time": "9:00-10:00",
+            "subject": "Mathematics",
+            "teacher": "Ms. Sultana"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "Bengali",
+            "teacher": "Mr. Karim"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Social Science",
+            "teacher": "Mrs. Akter"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "ICT", "teacher": "Mr. Ahmed" }
+        ],
+        "Sunday": [
+          {
+            "time": "8:00-9:00",
+            "subject": "Mathematics",
+            "teacher": "Ms. Sultana"
+          },
+          {
+            "time": "9:00-10:00",
+            "subject": "Science",
+            "teacher": "Mr. Hasan"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "Social Science",
+            "teacher": "Mrs. Akter"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Religion",
+            "teacher": "Mr. Islam"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          {
+            "time": "2:00-3:00",
+            "subject": "Art & Craft",
+            "teacher": "Mrs. Begum"
+          }
+        ],
+        "Monday": [
+          {
+            "time": "8:00-9:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "9:00-10:00",
+            "subject": "Bengali",
+            "teacher": "Mr. Karim"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "Science",
+            "teacher": "Mr. Hasan"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "Mathematics",
+            "teacher": "Ms. Sultana"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Physical Education",
+            "teacher": "Mr. Ali"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "Computer", "teacher": "Mr. Ahmed" }
+        ],
+        "Tuesday": [
+          { "time": "8:00-9:00", "subject": "Bengali", "teacher": "Mr. Karim" },
+          {
+            "time": "9:00-10:00",
+            "subject": "Mathematics",
+            "teacher": "Ms. Sultana"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "Science",
+            "teacher": "Mr. Hasan"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Social Science",
+            "teacher": "Mrs. Akter"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "Music", "teacher": "Ms. Jahan" }
+        ],
+        "Wednesday": [
+          { "time": "8:00-9:00", "subject": "Science", "teacher": "Mr. Hasan" },
+          {
+            "time": "9:00-10:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "Mathematics",
+            "teacher": "Ms. Sultana"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "Bengali",
+            "teacher": "Mr. Karim"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Social Science",
+            "teacher": "Mrs. Akter"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "Religion", "teacher": "Mr. Islam" }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "className": "Class 9",
+      "schedule": {
+        "Saturday": [
+          {
+            "time": "8:00-9:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "9:00-10:00",
+            "subject": "Physics",
+            "teacher": "Mr. Hasan"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "Chemistry",
+            "teacher": "Ms. Sultana"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "Mathematics",
+            "teacher": "Mrs. Akter"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Bengali",
+            "teacher": "Mr. Karim"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "ICT", "teacher": "Mr. Ahmed" }
+        ],
+        "Sunday": [
+          {
+            "time": "8:00-9:00",
+            "subject": "Mathematics",
+            "teacher": "Mrs. Akter"
+          },
+          {
+            "time": "9:00-10:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "Biology",
+            "teacher": "Mr. Hasan"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "Chemistry",
+            "teacher": "Ms. Sultana"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Religion",
+            "teacher": "Mr. Islam"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "History", "teacher": "Mrs. Begum" }
+        ],
+        "Monday": [
+          { "time": "8:00-9:00", "subject": "Physics", "teacher": "Mr. Hasan" },
+          {
+            "time": "9:00-10:00",
+            "subject": "Bengali",
+            "teacher": "Mr. Karim"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "Mathematics",
+            "teacher": "Mrs. Akter"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Geography",
+            "teacher": "Mrs. Akter"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "Computer", "teacher": "Mr. Ahmed" }
+        ],
+        "Tuesday": [
+          { "time": "8:00-9:00", "subject": "Bengali", "teacher": "Mr. Karim" },
+          {
+            "time": "9:00-10:00",
+            "subject": "Chemistry",
+            "teacher": "Ms. Sultana"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "Mathematics",
+            "teacher": "Mrs. Akter"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "Physics",
+            "teacher": "Mr. Hasan"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Physical Education",
+            "teacher": "Mr. Ali"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "English", "teacher": "Mr. Rahman" }
+        ],
+        "Wednesday": [
+          {
+            "time": "8:00-9:00",
+            "subject": "Mathematics",
+            "teacher": "Mrs. Akter"
+          },
+          {
+            "time": "9:00-10:00",
+            "subject": "Biology",
+            "teacher": "Mr. Hasan"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "Bengali",
+            "teacher": "Mr. Karim"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Chemistry",
+            "teacher": "Ms. Sultana"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "Religion", "teacher": "Mr. Islam" }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "className": "Class 10",
+      "schedule": {
+        "Saturday": [
+          {
+            "time": "8:00-9:00",
+            "subject": "Mathematics",
+            "teacher": "Mrs. Akter"
+          },
+          {
+            "time": "9:00-10:00",
+            "subject": "Physics",
+            "teacher": "Mr. Hasan"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "Chemistry",
+            "teacher": "Ms. Sultana"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Bengali",
+            "teacher": "Mr. Karim"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "ICT", "teacher": "Mr. Ahmed" }
+        ],
+        "Sunday": [
+          {
+            "time": "8:00-9:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "9:00-10:00",
+            "subject": "Mathematics",
+            "teacher": "Mrs. Akter"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "Chemistry",
+            "teacher": "Ms. Sultana"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "Biology",
+            "teacher": "Mr. Hasan"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Religion",
+            "teacher": "Mr. Islam"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "History", "teacher": "Mrs. Begum" }
+        ],
+        "Monday": [
+          { "time": "8:00-9:00", "subject": "Physics", "teacher": "Mr. Hasan" },
+          {
+            "time": "9:00-10:00",
+            "subject": "Bengali",
+            "teacher": "Mr. Karim"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "Mathematics",
+            "teacher": "Mrs. Akter"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Geography",
+            "teacher": "Mrs. Akter"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "Computer", "teacher": "Mr. Ahmed" }
+        ],
+        "Tuesday": [
+          { "time": "8:00-9:00", "subject": "Bengali", "teacher": "Mr. Karim" },
+          {
+            "time": "9:00-10:00",
+            "subject": "Chemistry",
+            "teacher": "Ms. Sultana"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "Mathematics",
+            "teacher": "Mrs. Akter"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "Physics",
+            "teacher": "Mr. Hasan"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Physical Education",
+            "teacher": "Mr. Ali"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "English", "teacher": "Mr. Rahman" }
+        ],
+        "Wednesday": [
+          {
+            "time": "8:00-9:00",
+            "subject": "Mathematics",
+            "teacher": "Mrs. Akter"
+          },
+          {
+            "time": "9:00-10:00",
+            "subject": "Biology",
+            "teacher": "Mr. Hasan"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "English",
+            "teacher": "Mr. Rahman"
+          },
+          {
+            "time": "11:00-12:00",
+            "subject": "Bengali",
+            "teacher": "Mr. Karim"
+          },
+          {
+            "time": "12:00-1:00",
+            "subject": "Chemistry",
+            "teacher": "Ms. Sultana"
+          },
+          { "time": "1:00-2:00", "subject": "Break", "teacher": "-" },
+          { "time": "2:00-3:00", "subject": "Religion", "teacher": "Mr. Islam" }
+        ]
+      }
+    }
+  ],
+  "teachers": [
+    "Mr. Rahman",
+    "Ms. Sultana",
+    "Mr. Hasan",
+    "Mrs. Akter",
+    "Mr. Karim",
+    "Mr. Ahmed",
+    "Mr. Islam",
+    "Mr. Ali",
+    "Mrs. Begum",
+    "Ms. Jahan"
+  ]
+}

@@ -91,9 +91,9 @@ const Students = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen grid place-items-center bg-slate-50">
-        <div className="flex items-center gap-3 text-slate-600">
-          <div className="h-5 w-5 animate-spin rounded-full border-2 border-slate-300 border-t-slate-600" />
+      <div className="min-h-screen grid place-items-center bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50">
+        <div className="flex items-center gap-3 text-gray-600">
+          <div className="h-5 w-5 animate-spin rounded-full border-2 border-emerald-300 border-t-emerald-600" />
           <p className="li-font">তথ্য লোড হচ্ছে...</p>
         </div>
       </div>
@@ -101,14 +101,14 @@ const Students = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white py-10 px-4 sm:px-6">
+    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50 py-10 px-4 sm:px-6">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 li-font">
+          <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4 li-font">
             প্রতি শ্রেণিতে শিক্ষার্থীদের পরিসংখ্যান
           </h3>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-green-500 mx-auto rounded-full"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-emerald-500 to-teal-500 mx-auto rounded-full"></div>
           {/* <p className="text-sm text-gray-600 li-font">
             মোট শিক্ষার্থী, ছাত্র ও ছাত্রী সংখ্যা এক নজরে
           </p> */}

@@ -12,6 +12,13 @@ import Students from "../pages/Academic/Students";
 import Calender from "../pages/Academic/Calender";
 import AdmissionForm from "../pages/Admission/AdmissionForm";
 import Public from "../pages/Results/Public";
+import Internal from "../pages/Results/Internal";
+import Notice from "../pages/Notice/Notice";
+import AdmissionNotice from "../pages/Admission/AdmissionNotice";
+import AdmissionResult from "../pages/Admission/AdmissionResult";
+import Contact from "../pages/Contact/Contact";
+import Gallery from "../pages/Gallery/Gallery";
+import NotFound from "../pages/NotFound/NotFound";
 
 export const router = createBrowserRouter([
   {
@@ -63,9 +70,37 @@ export const router = createBrowserRouter([
         element: <AdmissionForm />,
       },
       {
+        path: "/admission/notice",
+        element: <AdmissionNotice />,
+      },
+      {
+        path: "/admission/result",
+        element: <AdmissionResult />,
+      },
+      {
         path: "/results/public",
         element: <Public />,
       },
+      {
+        path: "/results/internal",
+        element: <Internal />,
+      },
+      {
+        path: "/notice",
+        element: <Notice />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+      {
+        path: "/gallery",
+        element: <Gallery/>
+      },
+      {
+        path: "*",
+        element: <NotFound/>
+      }
     ],
   },
 ]);

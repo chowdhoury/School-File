@@ -12,42 +12,44 @@ import SlideGalleryImage from "../../components/home/SlideGalleryImage";
 import Slider from "../../components/home/Slider";
 
 const Home = () => {
-    return (
-        <div>
-            {/* <Header></Header> */}
+  return (
+    <div>
+      {/* <Header></Header> */}
 
-            {/* Sticky Navigation */}
-            {/* <div className="sticky top-0 z-50 bg-white shadow-md">
+      {/* Sticky Navigation */}
+      {/* <div className="sticky top-0 z-50 bg-white shadow-md">
                 <Navigation></Navigation>
             </div> */}
 
-            <LatestNews></LatestNews>
+      <LatestNews></LatestNews>
 
-            <div className="max-w-11/12 w-full mx-auto flex flex-col lg:flex-row justify-between items-center gap-5 lg:gap-10 py-10">
-                <Slider></Slider>
-                <NoticeBoard></NoticeBoard>
-            </div>
+      <div className="max-w-11/12 w-full mx-auto flex flex-col lg:flex-row justify-between items-center gap-5 lg:gap-10 py-10">
+        <Slider></Slider>
+        <NoticeBoard></NoticeBoard>
+      </div>
 
-            <Message></Message>
+      <Message></Message>
 
-            <div className="max-w-11/12 w-full mx-auto flex flex-col lg:flex-row justify-between gap-8 lg:gap-16 py-10">
-                <History></History>
-                <ImportantLinks></ImportantLinks>
-            </div>
+      <div className="max-w-11/12 w-full mx-auto flex flex-col lg:flex-row justify-between gap-8 lg:gap-16 py-10">
+        <History></History>
+        <ImportantLinks></ImportantLinks>
+      </div>
 
-            <section>
-                <h1 className="text-2xl md:text-3xl font-bold text-center pb-7">ফটো গ্যালারি</h1>
-                <div className="max-w-11/12 w-full mx-auto flex flex-col lg:flex-row justify-between gap-5 lg:gap-10 pb-10">
-                    <SlideGalleryImage></SlideGalleryImage>
-                    <GalleryImagePreview></GalleryImagePreview>
-                </div>
-            </section>
-
-            <Contact></Contact>
-
-            {/* <Footer></Footer> */}
+      <section>
+        <h1 className="text-2xl md:text-3xl font-bold text-center pb-7">
+          ফটো গ্যালারি
+        </h1>
+        <div className="max-w-11/12 w-full mx-auto flex flex-col lg:flex-row justify-between gap-5 lg:gap-10 pb-10">
+          <SlideGalleryImage></SlideGalleryImage>
+          <GalleryImagePreview></GalleryImagePreview>
         </div>
-    );
+      </section>
+
+      <Contact></Contact>
+
+      {/* <Footer></Footer> */}
+    </div>
+  );
 };
 
 export default Home;

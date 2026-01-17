@@ -75,14 +75,14 @@ const Public = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 via-blue-50 to-purple-50 py-12 px-4 overflow-x-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50 py-12 px-4 overflow-x-hidden">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-12">
-          <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 li-font">
+          <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4 li-font">
             জেএসসি এবং এসএসসি পরীক্ষার ফলাফল
           </h1>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-green-500 mx-auto rounded-full"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-emerald-500 to-teal-500 mx-auto rounded-full"></div>
         </div>
 
         {/* Search and Filter Section */}
@@ -94,7 +94,7 @@ const Public = () => {
               placeholder="ফলাফল খুঁজুন..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full px-4 py-2 pl-10 border border-gray-300 rounded-lg focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 transition-all text-sm"
+              className="w-full px-4 py-2 pl-10 border border-gray-300 rounded-lg focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500 transition-all text-sm li-font"
             />
             <span className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">
               🔍
@@ -106,7 +106,7 @@ const Public = () => {
             <select
               value={selectedExam}
               onChange={(e) => setSelectedExam(e.target.value)}
-              className="w-full sm:w-auto px-4 py-2 pr-8 border border-gray-300 rounded-lg focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 transition-all appearance-none bg-white cursor-pointer text-sm"
+              className="w-full sm:w-auto px-4 py-2 pr-8 border border-gray-300 rounded-lg focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500 transition-all appearance-none bg-white cursor-pointer text-sm li-font"
             >
               <option value="all">সকল পরীক্ষা</option>
               <option value="জেএসসি">জেএসসি</option>
@@ -122,7 +122,7 @@ const Public = () => {
             <select
               value={selectedYear}
               onChange={(e) => setSelectedYear(e.target.value)}
-              className="w-full sm:w-auto px-4 py-2 pr-8 border border-gray-300 rounded-lg focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 transition-all appearance-none bg-white cursor-pointer text-sm"
+              className="w-full sm:w-auto px-4 py-2 pr-8 border border-gray-300 rounded-lg focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500 transition-all appearance-none bg-white cursor-pointer text-sm li-font"
             >
               <option value="all">সকল বছর</option>
               {years.map((year) => (
@@ -142,7 +142,7 @@ const Public = () => {
           <div className="space-y-8">
             {Object.entries(groupedResults).map(([exam, results]) => (
               <div key={exam}>
-                <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-2 border-b-2 border-green-500 inline-block li-font">
+                <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-2 border-b-2 border-emerald-500 inline-block li-font">
                   {exam} ফলাফল
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-4">
@@ -153,11 +153,11 @@ const Public = () => {
                       style={{ animationDelay: `${index * 50}ms` }}
                     >
                       {/* Decorative gradient */}
-                      <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-green-100 to-blue-100 rounded-full -mr-16 -mt-16 opacity-50 group-hover:scale-150 transition-transform duration-500"></div>
+                      <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-emerald-100 to-teal-100 rounded-full -mr-16 -mt-16 opacity-50 group-hover:scale-150 transition-transform duration-500"></div>
 
                       {/* Icon */}
                       <div className="relative mb-4">
-                        <div className="w-20 h-20 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center mx-auto shadow-md group-hover:scale-110 transition-transform duration-300">
+                        <div className="w-20 h-20 bg-gradient-to-br from-emerald-400 to-teal-600 rounded-full flex items-center justify-center mx-auto shadow-md group-hover:scale-110 transition-transform duration-300">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
@@ -176,16 +176,16 @@ const Public = () => {
 
                       {/* Result Info */}
                       <div className="text-center mb-5">
-                        <h3 className="font-bold text-xl mb-2 text-gray-800 group-hover:text-green-600 transition-colors li-font">
+                        <h3 className="font-bold text-xl mb-2 text-gray-800 group-hover:text-emerald-600 transition-colors li-font">
                           {result.exam}
                         </h3>
-                        <p className="text-lg text-white bg-gradient-to-r from-green-500 to-blue-500 py-1.5 px-3 rounded-full inline-block font-semibold shadow-sm li-font">
+                        <p className="text-lg text-white bg-gradient-to-r from-emerald-500 to-teal-500 py-1.5 px-3 rounded-full inline-block font-semibold shadow-sm li-font">
                           {result.year}
                         </p>
                       </div>
 
                       {/* Board Info */}
-                      <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-3 mb-4">
+                      <div className="bg-gradient-to-r from-emerald-50 to-teal-50 rounded-lg p-3 mb-4">
                         <p className="text-sm text-gray-700 font-medium text-center li-font">
                           মোড়াগাছা মাধ্যমিক বিদ্যালয়
                         </p>
@@ -194,7 +194,7 @@ const Public = () => {
                       {/* Download Button */}
                       <button
                         onClick={() => handleDownload(result.file)}
-                        className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-green-500 to-blue-500 text-white py-2.5 px-4 rounded-lg font-semibold hover:from-green-600 hover:to-blue-600 transition-all duration-300 shadow-md hover:shadow-lg li-font"
+                        className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-500 to-teal-500 text-white py-2.5 px-4 rounded-lg font-semibold hover:from-emerald-600 hover:to-teal-600 transition-all duration-300 shadow-md hover:shadow-lg li-font"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"

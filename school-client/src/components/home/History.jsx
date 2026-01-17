@@ -1,4 +1,4 @@
-import schoolImage from "../../assets/img/schoolImage.jpg";
+import schoolImage from "../../assets/img/6.jpg";
 
 const History = () => {
   return (

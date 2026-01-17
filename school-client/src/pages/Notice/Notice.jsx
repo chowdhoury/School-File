@@ -140,7 +140,7 @@ const Notice = () => {
                   {/* Content Section */}
                   <div className="flex-1 p-6">
                     <div className="flex items-start justify-between gap-4 mb-3">
-                      <h3 className="text-lg font-bold text-gray-900 flex-1 li-font">
+                      <h3 className="text-xl font-bold text-gray-900 flex-1 li-font">
                         {notice.title}
                       </h3>
                       <span
@@ -154,7 +154,7 @@ const Notice = () => {
                       </span>
                     </div>
 
-                    <p className="text-gray-600 mb-4 text-sm leading-relaxed li-font">
+                    <p className="text-gray-600 mb-4 text-lg leading-relaxed li-font">
                       {notice.body}
                     </p>
 

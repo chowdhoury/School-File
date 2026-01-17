@@ -1,9 +1,9 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
-import img1 from "../../assets/img/img1.jpg";
-import img2 from "../../assets/img/img2.jpg";
-import img3 from "../../assets/img/img3.jpg";
+import img1 from "../../assets/img/6.jpg";
+import img2 from "../../assets/img/5.jpg";
+import img3 from "../../assets/img/4.jpg";
 
 const Slider = () => {
   const images = [img1, img2, img3];
@@ -51,7 +51,7 @@ const Slider = () => {
             <img
               src={image}
               alt={`Slide ${index + 1}`}
-              className="w-full h-64 md:h-96 lg:h-[550px] object-fill"
+              className="w-full h-64 md:h-96 lg:h-[550px] object-cover"
               onError={(e) => {
                 console.error(`Failed to load image ${index + 1}`);
                 e.target.style.display = "none";

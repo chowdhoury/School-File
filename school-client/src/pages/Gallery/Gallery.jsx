@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import img1 from "../../assets/img/img1.jpg";
 import img2 from "../../assets/img/img2.jpg";
 import img3 from "../../assets/img/img3.jpg";
-import schoolImage from "../../assets/img/schoolImage.jpg";
+import schoolImage from "../../assets/img/6.jpg";
 
 const Gallery = () => {
   const [selectedCategory, setSelectedCategory] = useState("all");
